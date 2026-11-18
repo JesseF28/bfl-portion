@@ -1,0 +1,14 @@
+{
+  "name": "bfl-app-no-signin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BFL 2v2 league with persistent SQLite history and margin-aware individual Elo. No sign-in.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
